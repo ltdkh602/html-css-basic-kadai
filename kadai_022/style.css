@@ -1,0 +1,93 @@
+                header {
+                  margin: 0px;
+                  text-align: center;
+                  color: rgb(255, 255, 255);
+                  margin-bottom: 20px;
+                  background-color: rgb(244,79,79);
+                  }
+
+                  body {
+                       margin: 0px;
+                       }
+
+                       main {
+                        padding: 10px;
+                        }
+
+
+    .flexbox-container {
+                       display: flex;
+                       justify-content: space-between;
+                       text-align: center;
+                       margin: 10px;
+                       padding: 10px;
+                       }
+
+                       .flexbox-container {
+                        display: flex;
+                        padding: 5px;
+                   }
+                   .flexbox-item img {
+                       margin: 10px 0px ;
+                       width: 70%;
+                   }
+
+                   .flexbox-item {
+                    border: solid 3px rgb(238, 204, 204);
+                    padding: 10px 15px ; 
+                    margin: 20px 0px ;
+                    }
+
+                    #item01 {
+                        flex-basis: 25%;
+                        }
+                        #item02 {
+                            flex-basis: 25%;
+                            }
+                            #item03 {
+                                flex-basis: 25%;
+                                }
+                                main h2 {
+                                    font-size: 25px;
+                                    border-bottom: 3px dotted rgb(236, 122, 122);
+                                }
+                                h2::before {
+                                    content: "●";
+                                    color: rgb(239, 111, 139)
+                                    }
+
+                                    .flexbox-container p:nth-of-type(2)::first-letter {
+                                        font-weight: bold;
+                                        color: rgb(97, 206, 249);
+                                        }
+
+                                        footer {
+                                            text-align: center;
+                                            background-color: rgb(244, 79, 79);
+                                            }
+
+                                            footer a {
+                                                color: rgb(255, 255, 255);
+                                                
+
+                                                }
+
+                                                a:visited {
+                                                    color: rgb(193, 234, 251)
+                                                          }      
+                                                          a:hover {
+                                                            color: rgb(245, 178, 168)
+                                                        }
+
+
+                                                        @media screen and (max-width: 768px) {
+                                                            main h2 {
+                                                                font-size: 30px;
+                                                            }
+                                                            main p {
+                                                                font-size: 25px;
+                                                                }
+                                                                .flexbox-container {
+                                                                    display: block;
+                                                                    }
+                                                        }
